@@ -12,7 +12,7 @@ def dequeue
 end
 
 def show
-  @stack
+  @stack.dup
 end
 
 end

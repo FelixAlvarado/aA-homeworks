@@ -11,6 +11,7 @@ end
 
 def lookup(key)
   @my_map.each {|pair| return pair if pair[0] == key}
+  nil
 end
 
 def remove(key)
@@ -18,7 +19,21 @@ def remove(key)
 end
 
 def show
-  @my_map
+  deep_dup(@my_map)
+end
+
+private
+
+def deep_dup(arr)
+result = []
+arr.each do |el|
+    if el.is_a?(Array)
+      result << deep_dup(el)
+    else
+      result << el
+    end
+  end
+  result
 end
 
 end

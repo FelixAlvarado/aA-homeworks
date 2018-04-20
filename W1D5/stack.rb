@@ -12,7 +12,7 @@ class Stack
   end
 
   def show
-    @stack
+    @stack.dup
   end
 
 end
