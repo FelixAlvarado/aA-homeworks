@@ -14,6 +14,5 @@ class Stack
   def show
     @stack
   end
-  private
-  attr_reader :stack
+
 end
