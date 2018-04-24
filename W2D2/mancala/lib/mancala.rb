@@ -35,9 +35,9 @@ class Mancala
           puts e.message
         retry
         end
-        move_result = @board.make_move(start_pos, current_player.name)
+        move_result = @board.make_move(start_pos, currecnt_player_name)
       else
-        move_result = @board.make_move(move_result, current_player.name)
+        move_result = @board.make_move(move_result, current_player_name)
       end
       break if won?
     end
