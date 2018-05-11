@@ -11,18 +11,22 @@ width: 900px
 }
 
 .content-sidebar {
-float: left;
-width: 240px;
+  float: left;
+  width: 200px;
+  padding: 20px;
+  font-size: 16px
 }
 
 .content-main {
   float: left;
-  width: 660px:
-
+  width: 620px;
+  padding: 20px;
+  font-size: 16px
 }
 
 .content h1 {
-
+  font-size: 24px;
+  font-weight: 400
 }
 
 .content p {
