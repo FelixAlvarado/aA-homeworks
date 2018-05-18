@@ -102,6 +102,8 @@ herd.forEach( function (elephant) {
   console.log(`${elephant.name} is trotting by!`);
 });
 
+
+
 function dinerBreakfast() {
   let order = "I'd like cheesy scrambled eggs please.";
   console.log(order);
