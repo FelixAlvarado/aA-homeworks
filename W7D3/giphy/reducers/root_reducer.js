@@ -1,7 +1,9 @@
 import { combineReducers } from 'redux';
 
-import giphysReducer from './giphys_reducer';
+import {giphysReducer} from './giphys_reducer';
 
-export default combineReducers({
+const rootReducer =  combineReducers({
   giphys: giphysReducer
 });
+
+export default rootReducer;
