@@ -62,3 +62,17 @@ a {
   height: 25px;
   justify-content: space-between;
 }
+
+.list-container {
+  background: lightgrey;
+  top: 40px;
+  text-align: center;
+}
+
+.list-container ul li {
+  list-style-type: none;
+}
+
+.index-body {
+  background-color: lightgrey
+}
